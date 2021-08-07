@@ -4,33 +4,391 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" type="image/png" href="../Image/myself.png" type="image/x-icon">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
   <!-- Google Font open sans -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
   <!-- My CSS files -->
   <link rel="stylesheet" href="../CSS/style.css">
-  <link rel="stylesheet" href="../CSS/all.min.css">
-
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-
-
 
   <title>Ishaque Ahmed - portfolio</title>
 </head>
 
 <body>
 
+  <!-- Banner Area -->
+  <section class="banner-container container-fluid" id="home">
+    <div class="row vh-100">
+      <div class="col-md-9 banner-content p-5 m-auto text-center text-white border border-light">
+        <h2 class="display-4 font-weight-bold mt-2 mb-4">Ishaque Ahmed</h2>
+        <h4 class="my-2">Student, Js Learner, Mern Learner</h4>
+      </div>
+    </div>
+  </section>
 
-  
+  <!-- navbar section -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-container">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">HOME<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">EDUCATION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#project">PROJECT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">GALLERY</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- About Area -->
+  <section class="about-container" id="about">
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-9 text-white py-5 pr-5">
+          <h3 class="font-weight-bold">Ishaque Ahmed</h3>
+          <p>Student, Js Learner, Mern Learner</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, cumque doloremque! Modi vitae corporis
+            quas eius illum, delectus quaerat maxime saepe? Quae, inventore quia fugit vero rem dolorem aperiam
+            blanditiis voluptatem dolorum!</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni culpa eaque sunt harum saepe est iusto
+            provident cum molestias officiis enim consequatur fugiat quam, impedit facilis esse repellendus quibusdam
+            quidem at consequuntur. Ipsa provident ratione doloribus ipsum qui nesciunt eligendi.</p>
+
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, suscipit quia nihil quaerat doloribus
+            voluptates vel vitae voluptatum beatae necessitatibus.</p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <img src="../Image/newMY1.jpg" alt="My Picture" class="img-fluid rounded-circle border border-light">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section Area -->
+  <section class="education-container" id="education">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col py-5">
+          <h2 class="education-header-color font-weight-bolder">Education</h2>
+        </div>
+      </div>
+      <div class="row py-2 my-2 align-items-center justify-content-center">
+        <div class="col-md-2 mb-3 mx-3">
+          <div class="circle text-white">
+            <p class="py-5  text-center">Jan, 2014<br>
+              Dec, 2016</p>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="card ml-3">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, saepe minus quam aspernatur fugiat iusto
+                expedita ratione repudiandae dignissimos earum ab laboriosam explicabo dolorem perspiciatis molestias
+                ducimus blanditiis accusantium repellendus quia nisi. Modi, id? Architecto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row py-2 my-2 align-items-center justify-content-center">
+        <div class="col-md-2 mb-3 mx-3">
+          <div class="circle text-white">
+            <p class="py-5  text-center">Jan, 2014<br>
+              Dec, 2016</p>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="card ml-3">
+            <div class="card-body">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, saepe minus quam aspernatur fugiat iusto
+                expedita ratione repudiandae dignissimos earum ab laboriosam explicabo dolorem perspiciatis molestias
+                ducimus blanditiis accusantium repellendus quia nisi. Modi, id? Architecto.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section Area -->
+  <section class="project-container" id="project">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col py-5">
+          <h2 class="text-white font-weight-bold">Projects</h2>
+        </div>
+      </div>
+
+      <div class="row py-5">
+        <div class="col-md-3">
+          <img src="../Image/prof2.jpg" alt="" class="img-fluid mb-2">
+          <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aliquid.</a>
+          <p class="py-2">Time 10:45</p>
+        </div>
+        <div class="col-md-3">
+          <img src="../Image/prof4.jpg" alt="" class="img-fluid mb-2">
+          <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aliquid.</a>
+          <p class="py-2">Time 10:45</p>
+        </div>
+        <div class="col-md-3">
+          <img src="../Image/prof5.jpg" alt="" class="img-fluid mb-2">
+          <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aliquid.</a>
+          <p class="py-2">Time 10:45</p>
+        </div>
+        <div class="col-md-3">
+          <img src="../Image/prof4.jpg" alt="" class="img-fluid mb-2">
+          <a href="" class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aliquid.</a>
+          <p class="py-2">Time 10:45</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Portfolio Area  -->
+  <section class="container" id="portfolio">
+    <div class="row py-5">
+      <div class="col text-center">
+        <h2 class="font-weight-bolder education-header-color">Portfolio</h2>
+      </div>
+    </div>
+    <div class="row pb-4">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="../Image/prof5.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="../Image/prof4.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="../Image/prof2.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pb-4">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="../Image/prof2.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="../Image/prof4.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="../Image/prof5.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Gallery Section  -->
+  <section class="gallery-container" id="gallery">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col text-center">
+          <h2 class="font-weight-bolder text-white">Gallery</h2>
+        </div>
+      </div>
+      <div class="row py-3">
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof2.jpg" alt="" class="img-fluid border border-light">
+        </div>
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof4.jpg" alt="" class="img-fluid border border-dark">
+        </div>
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof2.jpg" alt="" class="img-fluid border border-light">
+        </div>
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof4.jpg" alt="" class="img-fluid border border-dark">
+        </div>
+      </div>
+      <div class="row py-3">
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof4.jpg" alt="" class="img-fluid border border-light">
+        </div>
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof2.jpg" alt="" class="img-fluid border border-dark">
+        </div>
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof4.jpg" alt="" class="img-fluid border border-light">
+        </div>
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof2.jpg" alt="" class="img-fluid border border-dark">
+        </div>
+      </div>
+      <div class="row py-3">
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof5.jpg" alt="" class="img-fluid border border-light">
+        </div>
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof4.jpg" alt="" class="img-fluid border border-dark">
+        </div>
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof2.jpg" alt="" class="img-fluid border border-light">
+        </div>
+        <div class="col-md-3 my-3">
+          <img src="../Image/prof4.jpg" alt="" class="img-fluid border border-dark">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- This is contact Section  -->
+  <section class="form-container" id="contact">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col text-white text-center m-auto">
+          <h2 class="font-weight-bold">It was a bumpy ride</h2>
+          <p class="text-center">But dreams have a tendency to play hard to get right</p>
+        </div>
+      </div>
+      <div class="row py-4">
+        <div class="col-sm mr-1 border border-light text-white text-center">
+          <span style="font-size: 72px;">29</span>
+          <h4>Failed Attempts</h4>
+        </div>
+
+        <div class="col-sm mr-1 border border-light text-white text-center">
+          <span style="font-size: 72px;">71</span>
+          <h4>Failed Attempts</h>
+        </div>
+
+        <div class="col-sm mr-1 border border-light text-white text-center">
+          <span style="font-size: 72px;">89</span>
+          <h4>Failed Attempts</h4>
+        </div>
+
+        <div class="col-sm mr-1 border border-light text-white text-center">
+          <span style="font-size: 72px;">92</span>
+          <h4>Failed Attempts</h4>
+        </div>
+      </div>
+
+      <div class="row py-5">
+        <div class="col text-white text-center m-auto">
+          <h2 class="font-weight-bold">Get in touch</h2>
+          <p class="text-center">I can be totally stalked online, Give me a shout-out</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col pb-4 text-white">
+          <h4>Shoot a Message</h4>
+        </div>
+      </div>
+
+      <form action="backend.js" method="get">
+        <div class="form-row pb-4">
+          <div class="col">
+            <input type="text" class="form-control inner-form" placeholder="your name">
+          </div>
+          <div class="col">
+            <input type="email" class="form-control inner-form" placeholder="your email">
+          </div>
+        </div>
+        <div class="form-row pb-4">
+          <div class="col">
+            <textarea name="" class="form-control inner-form" id="" placeholder="Your Message" cols="30"
+              rows="5"></textarea>
+          </div>
+        </div>
+        <div class="form-row pb-4">
+          <div class="col">
+            <button class="btn btn-per">Submit</button>
+          </div>
+
+        </div>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- This is footer section  -->
+  <section class="footer">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col text-center text-white">
+          <em>Work hard in silence, let your success make noise.</em>
+          <p class="text-center pt-4">Frank Ocean</p>
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col text-center">
+          <div class="foot-circle">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="foot-circle">
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="foot-circle">
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <p class="text-center text-white py-4">&copy; All right reserved to Ishaque Ahmed</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -45,21 +403,16 @@
 
 
 
-
-
-
-  <!-- Optional JavaScript; choose one of the two! -->
-
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  <!-- Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

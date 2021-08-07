@@ -1,3 +1,77 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+.banner-container{
+    background-color: #CAD3C8;
+}
+.banner-content{
+    background-color: #2C3A47;
+}
+.navbar-container{
+    background-color:#182C61;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+.about-container{
+    background-color: #16a085;
+}
+.education-container{
+    background-color: #CAD3C8;
+}
+.education-header-color{
+    color:#c0392b;
+}
+.education-bg-color{
+    background-color: #c0392b;
+}
+.circle{
+    background-color: #c0392b;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+.project-container{
+    background-color: #3498db;
+}
+.gallery-container{
+    background-color: #f39c12;
+}
+.form-container{
+    background-color: #34495e;
+}
+.inner-form{
+    background-color: #16a085;
+}
+.btn-per{
+    color:#ecf0f1;
+    background-color: #16a085;
+    padding: 10px 30px!important;
+    text-align: center;
+    
+}
+.footer{
+    background-color: #9b59b6;
+}
+.foot-circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: #c0392b;
+}
+.foot-circle:hover{
+    color:white;
+    background-color: #c0392b;
 }
